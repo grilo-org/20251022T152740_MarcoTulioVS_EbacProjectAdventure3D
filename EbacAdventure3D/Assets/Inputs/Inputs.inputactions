@@ -1,0 +1,74 @@
+{
+    "name": "Inputs",
+    "maps": [
+        {
+            "name": "Gameplay",
+            "id": "feae88bd-2140-4953-ad5f-eae18137df34",
+            "actions": [
+                {
+                    "name": "Shoot",
+                    "type": "Button",
+                    "id": "695e2181-84c4-49a3-bca2-2226860ffd66",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Weapon",
+                    "type": "Button",
+                    "id": "abce48ba-d559-4d37-813b-bc38e700153c",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Weapon2",
+                    "type": "Button",
+                    "id": "056e0b45-0c0e-4a2f-bd32-c70bdeafa4b4",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "3d5fee76-325a-4c99-a5af-da1751208be5",
+                    "path": "<Keyboard>/x",
+                    "interactions": "Press",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Shoot",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "82606636-964c-45e7-8fd4-352433df525e",
+                    "path": "<Keyboard>/numpad1",
+                    "interactions": "Press",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Weapon",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "9f2d1ab1-f599-4b33-a47d-ddd6c8187c65",
+                    "path": "<Keyboard>/numpad2",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Weapon2",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
